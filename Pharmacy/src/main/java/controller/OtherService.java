@@ -1,5 +1,6 @@
 package controller;
 
+import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -34,5 +35,14 @@ public class OtherService {
                 }
             }
         });
+    }
+    public void showComunity(ActionEvent event) throws IOException{
+        Comunity.showWindow(event);
+    }
+    public void showScanMeal(ActionEvent event) throws IOException{
+        ScanMeal.showWindow(event);
+    }
+    public void showReminder(ActionEvent event) throws IOException{
+        Reminder.showWindow(event);
     }
 }

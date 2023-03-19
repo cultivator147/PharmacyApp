@@ -23,10 +23,10 @@
                     </image>
                 </ImageView>
             </children></Pane>
-        <Button layoutX="86.0" layoutY="212.0" prefHeight="35.0" prefWidth="194.0" text="Community" />
-        <Button layoutX="80.0" layoutY="272.0" prefHeight="28.0" prefWidth="194.0" text="Scan Meals" />
-        <Button layoutX="80.0" layoutY="317.0" prefHeight="28.0" prefWidth="194.0" text="Reminder" />
+        <Button layoutX="86.0" layoutY="212.0" onAction="#showComunity" prefHeight="35.0" prefWidth="194.0" text="Community" />
+        <Button layoutX="80.0" layoutY="272.0" onAction="#showScanMeal" prefHeight="28.0" prefWidth="194.0" text="Scan Meals" />
+        <Button layoutX="80.0" layoutY="317.0" onAction="#showReminder" prefHeight="28.0" prefWidth="194.0" text="Reminder" />
       <Button layoutX="80.0" layoutY="379.0" prefHeight="28.0" prefWidth="194.0" text="Notification Settings" />
-      <Button layoutX="103.0" layoutY="441.0" prefHeight="28.0" prefWidth="194.0" text="Phone usage management" />
+      <Button layoutX="83.0" layoutY="441.0" prefHeight="28.0" prefWidth="194.0" text="Phone usage management" />
     </children>
 </AnchorPane>

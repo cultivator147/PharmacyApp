@@ -35,6 +35,8 @@ public class HomeController {
     ImageView imgRelatives;
     @FXML
     ImageView imgOtherService;
+    @FXML
+    ImageView imgSetting;
     public static void showWindow(ActionEvent event)  throws IOException {
         Parent home1 = FXMLLoader.load(HomeController.class.getResource("/views/Home.fxml"));
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
@@ -117,6 +119,26 @@ public class HomeController {
             public void handle(MouseEvent mouseEvent) {
                 try {
                     OtherService.showWindow(mouseEvent);
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+        });
+        imgDaily.setOnMouseClicked(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent mouseEvent) {
+                try {
+                    DailyRoutine.showWindow(mouseEvent);
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+        });
+        imgSetting.setOnMouseClicked(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent mouseEvent) {
+                try {
+                    Setting.showWindow(mouseEvent);
                 } catch (IOException e) {
                     throw new RuntimeException(e);
                 }

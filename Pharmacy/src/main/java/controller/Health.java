@@ -1,5 +1,6 @@
 package controller;
 
+import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -34,5 +35,8 @@ public class Health {
                 }
             }
         });
+    }
+    public void showCreateYourself(ActionEvent event) throws IOException{
+        CreateYourself.showWindow(event);
     }
 }

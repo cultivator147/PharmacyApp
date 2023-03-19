@@ -1,5 +1,6 @@
 package controller;
 
+import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -34,5 +35,11 @@ public class Ralatives {
                 }
             }
         });
+    }
+    public void showAddPerson(ActionEvent event) throws IOException {
+        AddPerson.showWindow(event);
+    }
+    public void showPersonLink(ActionEvent event) throws IOException {
+        PersonLink.showWindow(event);
     }
 }
