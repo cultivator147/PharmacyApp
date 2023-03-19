@@ -9,11 +9,11 @@
 <?import javafx.scene.shape.Circle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Ralatives">
+<AnchorPane prefHeight="600.0" prefWidth="400.0" stylesheets="/css/login.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Ralatives">
     <children>
         <Pane prefHeight="109.0" prefWidth="400.0" styleClass="background">
             <children>
-                <Label layoutX="80.0" layoutY="37.0" prefHeight="35.0" prefWidth="295.0" text="Booking Consulting Service">
+                <Label layoutX="159.0" layoutY="37.0" prefHeight="35.0" prefWidth="119.0" styleClass="headerText" text="Relatives">
                     <font>
                         <Font size="24.0" />
                     </font>
@@ -24,8 +24,8 @@
                     </image>
                 </ImageView>
             </children></Pane>
-        <Button layoutX="103.0" layoutY="266.0" onAction="#showAddPerson" prefHeight="68.0" prefWidth="194.0" text="Add person" />
-        <Button layoutX="104.0" layoutY="396.0" onAction="#showPersonLink" prefHeight="68.0" prefWidth="194.0" text="Person link" />
+        <Button layoutX="103.0" layoutY="266.0" onAction="#showAddPerson" prefHeight="68.0" prefWidth="194.0" styleClass="btnBlue" text="Add person" />
+        <Button layoutX="104.0" layoutY="396.0" onAction="#showPersonLink" prefHeight="68.0" prefWidth="194.0" styleClass="btnBlue" text="Person link" />
       <Circle fill="DODGERBLUE" layoutX="59.0" layoutY="141.0" radius="27.0" stroke="BLACK" strokeType="INSIDE" />
       <Label layoutX="37.0" layoutY="168.0" text="Person 1" />
       <Circle fill="DODGERBLUE" layoutX="153.0" layoutY="141.0" radius="27.0" stroke="BLACK" strokeType="INSIDE" />

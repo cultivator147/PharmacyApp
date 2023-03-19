@@ -9,10 +9,10 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CreateYourself">
+<AnchorPane stylesheets="/css/login.css" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CreateYourself">
     <Pane prefHeight="109.0" prefWidth="400.0" styleClass="background">
         <children>
-            <Label layoutX="80.0" layoutY="37.0" prefHeight="35.0" prefWidth="295.0" text="Daily Routine">
+            <Label styleClass="headerText" layoutX="125.0" layoutY="37.0" prefHeight="35.0" prefWidth="295.0" text="Health Record">
                 <font>
                     <Font size="24.0" />
                 </font>
@@ -23,19 +23,19 @@
                 </image>
             </ImageView>
         </children></Pane>
-    <Label layoutX="28.0" layoutY="158.0" text="Chrono conditions" />
-    <Label layoutX="28.0" layoutY="380.0" text="Medications" />
+    <Label styleClass="textBlue" style="-fx-underline: true" layoutX="28.0" layoutY="158.0" text="Chrono conditions" />
+    <Label styleClass="textBlue" style="-fx-underline: true" layoutX="28.0" layoutY="380.0" text="Medications" />
    <TableView layoutX="38.0" layoutY="198.0" prefHeight="141.0" prefWidth="346.0">
      <columns>
-       <TableColumn prefWidth="138.0" text="Dianosis" />
-       <TableColumn prefWidth="207.0" text="Treatment" />
+       <TableColumn styleClass="column" prefWidth="138.0" text="Diagnosis" />
+       <TableColumn styleClass="column" prefWidth="207.0" text="Treatment" />
      </columns>
    </TableView>
    <TableView layoutX="38.0" layoutY="409.0" prefHeight="141.0" prefWidth="346.0">
       <columns>
-         <TableColumn prefWidth="98.0" text="You started" />
-         <TableColumn prefWidth="143.0" text="Dose and frequency" />
-         <TableColumn prefWidth="105.0" text="What is it for?" />
+         <TableColumn styleClass="column" prefWidth="98.0" text="You started" />
+         <TableColumn styleClass="column" prefWidth="143.0" text="Dose and frequency" />
+         <TableColumn styleClass="column" prefWidth="105.0" text="What is it for?" />
       </columns>
    </TableView>
 

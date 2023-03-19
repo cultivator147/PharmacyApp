@@ -1,3 +1,51 @@
 .background{
     -fx-background-color: #002f87;
 }
+.btnLogin{
+
+    -fx-pref-width: 100px;
+    -fx-pref-height: 50px;
+    -fx-background-color : white;
+    -fx-background-radius :  20;
+    -fx-font-size: 16px;
+    -fx-text-fill: #002f87;
+    -fx-font-weight: bold;
+}
+.labelForget{
+    -fx-background-color: #002f87;
+    -fx-font-style: italic;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+.headerText{
+    -fx-font-size: 24px;
+    -fx-text-fill: white;
+    -fx-font-style: bold;
+    -fx-font-weight: bold;
+}
+.btnBlue{
+    -fx-background-color: #002f87;
+    -fx-background-radius: 20;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+.paneNutrition{
+    -fx-border-width: 1px;
+    -fx-border-color: #002f87;
+}
+.textBlue{
+    -fx-text-fill: #002f87;
+}
+.btnNitrition{
+    -fx-text-fill: blue;
+    -fx-font-weight: bold;
+}
+.whiteText{
+    -fx-text-fill: white;
+}
+.column{
+    /*-fx-background-color:  #002f87;*/
+    -fx-text-fill: white;
+}

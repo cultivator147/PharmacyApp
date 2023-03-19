@@ -8,7 +8,8 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Comunity">
+<AnchorPane prefHeight="600.0" prefWidth="400.0"
+            stylesheets="/css/login.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Comunity">
     <children>
         <Pane prefHeight="109.0" prefWidth="400.0" styleClass="background">
             <children>
@@ -17,19 +18,19 @@
                         <Image url="@../source/back.png" />
                     </image>
                 </ImageView>
-                <Label layoutX="138.0" layoutY="28.0" prefHeight="35.0" prefWidth="164.0" text="Other Service">
+                <Label styleClass="headerText" layoutX="138.0" layoutY="28.0" prefHeight="35.0" prefWidth="164.0" text="Other Services">
                     <font>
                         <Font size="24.0" />
                     </font>
                 </Label>
-            <Label layoutX="157.0" layoutY="63.0" prefHeight="35.0" prefWidth="96.0" text="Community">
+            <Label style="-fx-text-fill: white" layoutX="157.0" layoutY="63.0" prefHeight="35.0" prefWidth="96.0" text="Community">
                <font>
                   <Font size="18.0" />
                </font>
             </Label>
             </children></Pane>
-        <Button layoutX="110.0" layoutY="188.0" prefHeight="68.0" prefWidth="194.0" text="Label" />
-        <Button layoutX="110.0" layoutY="313.0" prefHeight="68.0" prefWidth="194.0" text="Label" />
-        <Button layoutX="110.0" layoutY="440.0" prefHeight="68.0" prefWidth="194.0" text="Label" />
+        <Button  styleClass="btnBlue" layoutX="110.0" layoutY="188.0" prefHeight="68.0" prefWidth="194.0" text="Label" />
+        <Button  styleClass="btnBlue" layoutX="110.0" layoutY="313.0" prefHeight="68.0" prefWidth="194.0" text="Label" />
+        <Button  styleClass="btnBlue"  layoutX="110.0" layoutY="440.0" prefHeight="68.0" prefWidth="194.0" text="Label" />
     </children>
 </AnchorPane>

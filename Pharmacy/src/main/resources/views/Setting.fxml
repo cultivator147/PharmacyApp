@@ -8,10 +8,10 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Setting">
+<AnchorPane prefHeight="600.0" prefWidth="400.0" stylesheets="/css/login.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Setting">
     <Pane prefHeight="109.0" prefWidth="400.0" styleClass="background">
         <children>
-            <Label layoutX="80.0" layoutY="37.0" prefHeight="35.0" prefWidth="295.0" text="Settings">
+            <Label layoutX="80.0" layoutY="37.0" prefHeight="35.0" prefWidth="295.0" styleClass="headerText" text="Settings">
                 <font>
                     <Font size="24.0" />
                 </font>
@@ -21,26 +21,26 @@
                     <Image url="@../source/back.png" />
                 </image>
             </ImageView>
-          <Label layoutX="22.0" layoutY="128.0" text="App version" />
+          <Label styleClass="textBlue"  layoutX="22.0" layoutY="128.0" text="App version" />
         </children></Pane>
-    <Label layoutX="21.0" layoutY="435.0" text="Communication setting" />
-    <Line endX="240.0" layoutX="155.0" layoutY="246.0" startX="-153.0" />
-    <Line endX="240.0" layoutX="155.0" layoutY="291.0" startX="-153.0" />
-    <Line endX="240.0" layoutX="155.0" layoutY="336.0" startX="-153.0" />
-    <Line endX="240.0" layoutX="155.0" layoutY="379.0" startX="-153.0" />
-    <Line endX="240.0" layoutX="155.0" layoutY="422.0" startX="-153.0" />
-    <Line endX="240.0" layoutX="155.0" layoutY="464.0" startX="-153.0" />
-    <Line endX="240.0" layoutX="155.0" layoutY="505.0" startX="-153.0" />
-    <Line endX="240.0" layoutX="155.0" layoutY="543.0" startX="-153.0" />
-   <Line endX="240.0" layoutX="157.0" layoutY="201.0" startX="-153.0" />
-   <Line endX="240.0" layoutX="155.0" layoutY="156.0" startX="-153.0" />
-   <Label layoutX="21.0" layoutY="173.0" text="About us" />
-   <Label layoutX="21.0" layoutY="218.0" text="Update email" />
-   <Label layoutX="21.0" layoutY="267.0" text="Troubleshoot" />
-   <Label layoutX="21.0" layoutY="310.0" text="Update food and database" />
-   <Label layoutX="21.0" layoutY="388.0" text="Refresh" />
-   <Label layoutX="23.0" layoutY="478.0" text="Units &amp; Measure" />
-   <Label layoutX="21.0" layoutY="353.0" text="Update work out database" />
-   <Label layoutX="24.0" layoutY="518.0" text="Logout" />
+    <Label styleClass="textBlue"  layoutX="21.0" layoutY="435.0" text="Communication setting" />
+    <Line endX="240.0" layoutX="155.0" layoutY="246.0" startX="-153.0" styleClass="background" />
+    <Line endX="240.0" layoutX="155.0" layoutY="291.0" startX="-153.0" styleClass="background" />
+    <Line endX="240.0" layoutX="155.0" layoutY="336.0" startX="-153.0" styleClass="background" />
+    <Line endX="240.0" layoutX="155.0" layoutY="379.0" startX="-153.0" styleClass="background" />
+    <Line endX="240.0" layoutX="155.0" layoutY="422.0" startX="-153.0" styleClass="background" />
+    <Line endX="240.0" layoutX="155.0" layoutY="464.0" startX="-153.0" styleClass="background" />
+    <Line endX="240.0" layoutX="155.0" layoutY="505.0" startX="-153.0" styleClass="background" />
+    <Line endX="240.0" layoutX="155.0" layoutY="543.0" startX="-153.0" styleClass="background" />
+   <Line endX="240.0" layoutX="157.0" layoutY="201.0" startX="-153.0" styleClass="background" />
+   <Line endX="240.0" layoutX="155.0" layoutY="156.0" startX="-153.0" styleClass="background" />
+   <Label layoutX="21.0" layoutY="173.0" styleClass="textBlue" text="About us" />
+   <Label layoutX="21.0" layoutY="218.0" styleClass="textBlue" text="Update email" />
+   <Label layoutX="21.0" layoutY="267.0" styleClass="textBlue" text="Troubleshoot" />
+   <Label layoutX="21.0" layoutY="310.0" styleClass="textBlue" text="Update food and database" />
+   <Label layoutX="21.0" layoutY="388.0" styleClass="textBlue" text="Refresh" />
+   <Label layoutX="23.0" layoutY="478.0" styleClass="textBlue" text="Units &amp; Measure" />
+   <Label layoutX="21.0" layoutY="353.0" styleClass="textBlue" text="Update work out database" />
+   <Label fx:id="logout" layoutX="24.0" layoutY="518.0" styleClass="textBlue" text="Logout" />
 
 </AnchorPane>

@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PersonLink">
+<AnchorPane stylesheets="/css/login.css" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PersonLink">
     <children>
         <Pane prefHeight="109.0" prefWidth="400.0" styleClass="background">
             <children>
@@ -17,18 +17,18 @@
                         <Image url="@../source/back.png" />
                     </image>
                 </ImageView>
-                <Label layoutX="153.0" layoutY="28.0" prefHeight="35.0" prefWidth="104.0" text="Relatives">
+                <Label styleClass="headerText" layoutX="159.0" layoutY="28.0" prefHeight="35.0" prefWidth="104.0" text="Relatives">
                     <font>
                         <Font size="24.0" />
                     </font>
                 </Label>
-                <Label layoutX="157.0" layoutY="63.0" prefHeight="35.0" prefWidth="96.0" text="Person Link">
+                <Label style="-fx-text-fill: white" layoutX="159.0" layoutY="63.0" prefHeight="35.0" prefWidth="96.0" text="Person Link">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Label>
             </children></Pane>
-        <Button layoutX="110.0" layoutY="232.0" prefHeight="68.0" prefWidth="194.0" text="Scan QR Code" />
-        <Button layoutX="110.0" layoutY="360.0" prefHeight="68.0" prefWidth="194.0" text="ID" />
+        <Button styleClass="btnBlue" layoutX="110.0" layoutY="232.0" prefHeight="68.0" prefWidth="220.0" text="Scan QR Code" />
+        <Button styleClass="btnBlue" layoutX="110.0" layoutY="346.0" prefHeight="68.0" prefWidth="220.0" text="ID" />
     </children>
 </AnchorPane>

@@ -10,10 +10,10 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.NutritrionRegimen">
+<AnchorPane prefHeight="600.0" prefWidth="400.0" stylesheets="/css/login.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.NutritrionRegimen">
     <Pane prefHeight="109.0" prefWidth="400.0" styleClass="background">
         <children>
-            <Label layoutX="94.0" layoutY="37.0" prefHeight="35.0" prefWidth="228.0" text="News">
+            <Label layoutX="125.0" layoutY="37.0" prefHeight="35.0" prefWidth="235.0" styleClass="headerText" text="Nutrition Regimen">
                 <font>
                     <Font size="24.0" />
                 </font>
@@ -24,14 +24,14 @@
                 </image>
             </ImageView>
         </children></Pane>
-   <HBox layoutY="102.0" prefHeight="35.0" prefWidth="400.0">
+   <HBox layoutY="102.0" prefHeight="35.0" prefWidth="405.0" styleClass="paneNutrition">
       <children>
-         <Button mnemonicParsing="false" prefHeight="34.0" prefWidth="144.0" text="Calories" />
-         <Button mnemonicParsing="false" onAction="#showNutrients" prefHeight="34.0" prefWidth="133.0" text="Nutrients" />
-         <Button mnemonicParsing="false" onAction="#showMacros" prefHeight="35.0" prefWidth="123.0" text="Macros" />
+         <Button mnemonicParsing="false" prefHeight="34.0" prefWidth="144.0" styleClass="btnNitrition" text="Calories" />
+         <Button mnemonicParsing="false" onAction="#showNutrients" prefHeight="34.0" prefWidth="133.0" styleClass="btnNitrition" text="Nutrients" />
+         <Button mnemonicParsing="false" onAction="#showMacros" prefHeight="35.0" prefWidth="128.0" styleClass="btnNitrition" text="Macros" />
       </children>
    </HBox>
-   <Pane layoutX="1.0" layoutY="137.0" prefHeight="60.0" prefWidth="400.0">
+   <Pane layoutX="1.0" layoutY="137.0" prefHeight="60.0" prefWidth="404.0" styleClass="paneNutrition">
       <children>
          <Label layoutX="168.0" layoutY="19.0" text="Today">
             <font>
@@ -40,31 +40,31 @@
          </Label>
       </children>
    </Pane>
-   <Pane layoutY="197.0" prefHeight="238.0" prefWidth="400.0">
+   <Pane layoutY="197.0" prefHeight="238.0" prefWidth="405.0" styleClass="paneNutrition">
       <children>
          <PieChart fx:id="pieChart" layoutX="68.0" minHeight="100.0" minWidth="100.0" prefHeight="238.0" prefWidth="265.0" />
       </children></Pane>
-   <Pane layoutX="3.0" layoutY="435.0" prefHeight="53.0" prefWidth="394.0">
+   <Pane layoutX="-2.0" layoutY="435.0" prefHeight="53.0" prefWidth="405.0" styleClass="paneNutrition">
       <children>
-         <Label layoutX="22.0" layoutY="9.0" text="Total Calories">
+         <Label layoutX="22.0" layoutY="9.0" styleClass="textBlue" text="Total Calories">
             <font>
                <Font size="24.0" />
             </font>
          </Label>
       </children>
    </Pane>
-   <Pane layoutX="4.0" layoutY="488.0" prefHeight="53.0" prefWidth="394.0">
+   <Pane layoutX="-1.0" layoutY="488.0" prefHeight="53.0" prefWidth="405.0" styleClass="paneNutrition">
       <children>
-         <Label layoutX="22.0" layoutY="9.0" text="Net Calories">
+         <Label layoutX="22.0" layoutY="9.0" styleClass="textBlue" text="Net Calories">
             <font>
                <Font size="24.0" />
             </font>
          </Label>
       </children>
    </Pane>
-   <Pane layoutX="3.0" layoutY="541.0" prefHeight="53.0" prefWidth="394.0">
+   <Pane layoutX="-2.0" layoutY="541.0" prefHeight="53.0" prefWidth="405.0" styleClass="paneNutrition">
       <children>
-         <Label layoutX="22.0" layoutY="9.0" text="Goal">
+         <Label layoutX="22.0" layoutY="9.0" styleClass="textBlue" text="Goal">
             <font>
                <Font size="24.0" />
             </font>

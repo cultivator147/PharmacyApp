@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="600.0" prefWidth="400.0" styleClass="background" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomeController">
+<AnchorPane prefHeight="600.0" prefWidth="400.0" stylesheets="/css/login.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomeController">
    <children>
       <Pane prefHeight="109.0" prefWidth="400.0" styleClass="background">
          <children>
@@ -14,74 +16,83 @@
                   <Image url="@../source/user3.png" />
                </image>
             </ImageView>
+            <Label layoutX="90.0" layoutY="57.0" style="-fx-text-fill: white; -fx-font-size: 16px" text="User name" />
          </children></Pane>
-      <ImageView fx:id="imgNews" fitHeight="68.0" fitWidth="68.0" layoutX="6.0" layoutY="181.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="imgNews" fitHeight="68.0" fitWidth="68.0" layoutX="6.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../source/News.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="imgNutrition" fitHeight="68.0" fitWidth="68.0" layoutX="112.0" layoutY="181.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="imgNutrition" fitHeight="68.0" fitWidth="68.0" layoutX="112.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../source/Nutrition.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="imgDaily" fitHeight="68.0" fitWidth="68.0" layoutX="212.0" layoutY="181.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="imgDaily" fitHeight="68.0" fitWidth="68.0" layoutX="212.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../source/Living.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="imgService" fitHeight="68.0" fitWidth="68.0" layoutX="318.0" layoutY="181.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="imgService" fitHeight="68.0" fitWidth="68.0" layoutX="318.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../source/Services.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="imgHealth" fitHeight="68.0" fitWidth="68.0" layoutX="10.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="imgHealth" fitHeight="68.0" fitWidth="68.0" layoutX="10.0" layoutY="265.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../source/HealthRecords.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="imgBooking" fitHeight="68.0" fitWidth="68.0" layoutX="116.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="imgBooking" fitHeight="68.0" fitWidth="68.0" layoutX="116.0" layoutY="265.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../source/Book_an_appoinment.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="imgRelatives" fitHeight="68.0" fitWidth="68.0" layoutX="216.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="imgRelatives" fitHeight="68.0" fitWidth="68.0" layoutX="216.0" layoutY="265.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../source/Relatives.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="imgOtherService" fitHeight="68.0" fitWidth="68.0" layoutX="322.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="imgOtherService" fitHeight="68.0" fitWidth="68.0" layoutX="322.0" layoutY="265.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../source/Other_Services.png" />
          </image>
       </ImageView>
-      <Pane layoutY="484.0" prefHeight="109.0" prefWidth="400.0" styleClass="background">
+      <Pane layoutY="524.0" prefHeight="76.0" prefWidth="400.0" styleClass="background">
          <children>
-            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="23.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="23.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../source/home.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="98.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="98.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../source/calendar.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="imgSetting" fitHeight="60.0" fitWidth="60.0" layoutX="326.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="imgSetting" fitHeight="60.0" fitWidth="60.0" layoutX="326.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../source/settings.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="69.0" fitWidth="58.0" layoutX="261.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="69.0" fitWidth="58.0" layoutX="261.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../source/bell.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="69.0" fitWidth="85.0" layoutX="175.0" layoutY="-34.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="69.0" fitWidth="85.0" layoutX="171.0" layoutY="-25.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../source/image3.jpg" />
+                  <Image url="@../source/335992378_254815150209938_7196415951761989742_n.png" />
                </image>
             </ImageView>
          </children></Pane>
+      <Text layoutX="122.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nutrition Regimen" textAlignment="CENTER" wrappingWidth="56.578125" />
+      <Text layoutX="15.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="News" textAlignment="CENTER" wrappingWidth="50.025001525878906" />
+      <Text layoutX="221.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Daily Routine" textAlignment="CENTER" wrappingWidth="56.578125" />
+      <Text layoutX="322.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Service" textAlignment="CENTER" wrappingWidth="56.578125" />
+      <Text layoutX="15.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Health Record" textAlignment="CENTER" wrappingWidth="56.578125" />
+      <Text layoutX="122.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Booking consulting service" textAlignment="CENTER" wrappingWidth="69.0" />
+      <Text layoutX="215.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Relatives" textAlignment="CENTER" wrappingWidth="69.0" />
+      <Text layoutX="322.0" layoutY="359.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Other services" textAlignment="CENTER" wrappingWidth="69.0" />
    </children>
 </AnchorPane>

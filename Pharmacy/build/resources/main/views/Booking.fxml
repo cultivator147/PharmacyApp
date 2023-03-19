@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -7,24 +8,23 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<?import javafx.scene.control.Button?>
-<AnchorPane prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Booking">
+<AnchorPane prefHeight="600.0" prefWidth="400.0" stylesheets="/css/login.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Booking">
     <children>
         <Pane prefHeight="109.0" prefWidth="400.0" styleClass="background">
             <children>
-                <Label layoutX="80.0" layoutY="37.0" prefHeight="35.0" prefWidth="295.0" text="Booking Consulting Service">
+                <Label layoutX="59.0" layoutY="37.0" prefHeight="35.0" prefWidth="318.0" styleClass="headerText" text="Booking Consulting Service">
                     <font>
                         <Font size="24.0" />
                     </font>
                 </Label>
-                <ImageView fx:id="imgBack" fitHeight="35.0" fitWidth="43.0" layoutX="25.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+                <ImageView fx:id="imgBack" fitHeight="35.0" fitWidth="43.0" layoutX="11.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
                     <image>
                         <Image url="@../source/back.png" />
                     </image>
                 </ImageView>
             </children></Pane>
-        <Button layoutX="103.0" layoutY="171.0" prefHeight="68.0" prefWidth="194.0" text="Booking online consulting service" />
-        <Button layoutX="97.0" layoutY="300.0" prefHeight="68.0" prefWidth="194.0" text="Booking consulting service at the hospital" />
-        <Button layoutX="97.0" layoutY="428.0" prefHeight="68.0" prefWidth="194.0" text="Booking consulting service at home" />
+        <Button layoutX="61.0" layoutY="171.0" prefHeight="79.0" prefWidth="295.0" styleClass="btnBlue" text="Booking online consulting service" />
+        <Button layoutX="61.0" layoutY="300.0" prefHeight="79.0" prefWidth="295.0" styleClass="btnBlue" text="Booking consulting service at the hospital" />
+        <Button layoutX="61.0" layoutY="430.0" prefHeight="79.0" prefWidth="295.0" styleClass="btnBlue" text="Booking consulting service at home" />
     </children>
 </AnchorPane>

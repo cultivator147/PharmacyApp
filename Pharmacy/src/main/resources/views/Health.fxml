@@ -8,11 +8,11 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Health">
+<AnchorPane prefHeight="600.0" prefWidth="400.0" stylesheets="/css/login.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Health">
     <children>
         <Pane prefHeight="109.0" prefWidth="400.0" styleClass="background">
             <children>
-                <Label layoutX="80.0" layoutY="37.0" prefHeight="35.0" prefWidth="295.0" text="Health Record">
+                <Label layoutX="80.0" layoutY="37.0" prefHeight="35.0" prefWidth="295.0" styleClass="headerText" text="Health Record">
                     <font>
                         <Font size="24.0" />
                     </font>
@@ -23,7 +23,7 @@
                     </image>
                 </ImageView>
             </children></Pane>
-        <Button layoutX="103.0" layoutY="171.0" onAction="#showCreateYourself" prefHeight="68.0" prefWidth="194.0" text="Create yourself" />
-        <Button layoutX="97.0" layoutY="300.0" prefHeight="68.0" prefWidth="194.0" text="Upload your health record" />
+        <Button layoutX="93.0" layoutY="206.0" onAction="#showCreateYourself" prefHeight="79.0" prefWidth="233.0" styleClass="btnBlue" text="Create yourself" />
+        <Button layoutX="93.0" layoutY="336.0" prefHeight="79.0" prefWidth="233.0" styleClass="btnBlue" text="Upload your health record" />
     </children>
 </AnchorPane>

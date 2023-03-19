@@ -8,25 +8,25 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="600" prefWidth="400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.OtherService">
+<AnchorPane stylesheets="/css/login.css" prefHeight="600" prefWidth="400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.OtherService">
     <children>
         <Pane prefHeight="109.0" prefWidth="400.0" styleClass="background">
             <children>
-                <Label layoutX="80.0" layoutY="37.0" prefHeight="35.0" prefWidth="295.0" text="Booking Consulting Service">
+                <Label styleClass="headerText" layoutX="117.0" layoutY="37.0" prefHeight="35.0" prefWidth="191.0" text="Other Services">
                     <font>
                         <Font size="24.0" />
                     </font>
                 </Label>
-                <ImageView fx:id="imgBack" fitHeight="35.0" fitWidth="43.0" layoutX="25.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+                <ImageView style="-fx-text-fill: white" fx:id="imgBack" fitHeight="35.0" fitWidth="43.0" layoutX="25.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
                     <image>
                         <Image url="@../source/back.png" />
                     </image>
                 </ImageView>
             </children></Pane>
-        <Button layoutX="86.0" layoutY="212.0" onAction="#showComunity" prefHeight="35.0" prefWidth="194.0" text="Community" />
-        <Button layoutX="80.0" layoutY="272.0" onAction="#showScanMeal" prefHeight="28.0" prefWidth="194.0" text="Scan Meals" />
-        <Button layoutX="80.0" layoutY="317.0" onAction="#showReminder" prefHeight="28.0" prefWidth="194.0" text="Reminder" />
-      <Button layoutX="80.0" layoutY="379.0" prefHeight="28.0" prefWidth="194.0" text="Notification Settings" />
-      <Button layoutX="83.0" layoutY="441.0" prefHeight="28.0" prefWidth="194.0" text="Phone usage management" />
+        <Button styleClass="btnBlue" layoutX="83.0" layoutY="210.0" onAction="#showComunity" prefHeight="34.0" prefWidth="239.0" text="Community" />
+        <Button styleClass="btnBlue"  layoutX="83.0" layoutY="268.0" onAction="#showScanMeal" prefHeight="34.0" prefWidth="239.0" text="Scan Meals" />
+        <Button styleClass="btnBlue"  layoutX="83.0" layoutY="328.0" onAction="#showReminder" prefHeight="34.0" prefWidth="239.0" text="Reminder" />
+      <Button styleClass="btnBlue"  layoutX="83.0" layoutY="391.0" prefHeight="34.0" prefWidth="239.0" text="Notification Settings" />
+      <Button styleClass="btnBlue"  layoutX="83.0" layoutY="450.0" prefHeight="34.0" prefWidth="239.0" text="Phone usage management" />
     </children>
 </AnchorPane>

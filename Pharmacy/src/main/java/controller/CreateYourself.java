@@ -29,7 +29,7 @@ public class CreateYourself {
             @Override
             public void handle(MouseEvent mouseEvent) {
                 try {
-                    OtherService.showWindow(mouseEvent);
+                    Health.showWindow(mouseEvent);
                 } catch (IOException e) {
                     throw new RuntimeException(e);
                 }

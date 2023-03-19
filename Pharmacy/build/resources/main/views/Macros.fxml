@@ -11,10 +11,10 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Macros">
+<AnchorPane stylesheets="/css/login.css" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Macros">
     <Pane prefHeight="109.0" prefWidth="400.0" styleClass="background">
         <children>
-            <Label layoutX="94.0" layoutY="37.0" prefHeight="35.0" prefWidth="228.0" text="Nutrition Regimen">
+            <Label layoutX="125.0" styleClass="headerText" layoutY="37.0" prefHeight="35.0" prefWidth="228.0" text="Nutrition Regimen">
                 <font>
                     <Font size="24.0" />
                 </font>
@@ -25,79 +25,79 @@
                 </image>
             </ImageView>
         </children></Pane>
-    <HBox layoutY="102.0" prefHeight="35.0" prefWidth="400.0">
+    <HBox styleClass="paneNutrition" layoutY="102.0" prefHeight="35.0" prefWidth="400.0">
         <children>
-            <Button mnemonicParsing="false" onAction="#showCalories" prefHeight="34.0" prefWidth="144.0" text="Calories" />
-            <Button mnemonicParsing="false" onAction="#showNutrients" prefHeight="34.0" prefWidth="133.0" text="Nutrients" />
-            <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="123.0" text="Macros" />
+            <Button styleClass="btnNitrition" mnemonicParsing="false" onAction="#showCalories" prefHeight="34.0" prefWidth="144.0" text="Calories" />
+            <Button styleClass="btnNitrition" mnemonicParsing="false" onAction="#showNutrients" prefHeight="34.0" prefWidth="133.0" text="Nutrients" />
+            <Button styleClass="btnNitrition" mnemonicParsing="false" prefHeight="35.0" prefWidth="123.0" text="Macros" />
         </children>
     </HBox>
-    <Pane layoutX="1.0" layoutY="137.0" prefHeight="60.0" prefWidth="400.0">
+    <Pane styleClass="paneNutrition" layoutX="1.0" layoutY="137.0" prefHeight="60.0" prefWidth="400.0">
         <children>
-            <Label layoutX="168.0" layoutY="19.0" text="Today">
+            <Label styleClass="textBlue"  layoutX="168.0" layoutY="19.0" text="Today">
                 <font>
                     <Font size="24.0" />
                 </font>
             </Label>
         </children>
     </Pane>
-    <Pane layoutY="197.0" prefHeight="202.0" prefWidth="400.0">
+    <Pane styleClass="paneNutrition" layoutY="197.0" prefHeight="202.0" prefWidth="400.0">
         <children>
             <PieChart fx:id="pieChart" layoutX="68.0" minHeight="100.0" minWidth="100.0" prefHeight="204.0" prefWidth="265.0" />
         </children></Pane>
    <VBox layoutX="3.0" layoutY="434.0">
       <children>
-          <Pane prefHeight="53.0" prefWidth="394.0">
+          <Pane styleClass="paneNutrition" prefHeight="53.0" prefWidth="394.0">
               <children>
-                  <Label layoutX="22.0" layoutY="9.0" text="Carbonhydrates (0g)">
+                  <Label styleClass="textBlue"  layoutX="22.0" layoutY="9.0" text="Carbonhydrates (0g)">
                       <font>
                           <Font size="24.0" />
                       </font>
                   </Label>
-               <Label layoutX="260.0" layoutY="13.0" text="0%">
+               <Label styleClass="textBlue"  layoutX="260.0" layoutY="13.0" text="0%">
                   <font>
                      <Font size="18.0" />
                   </font>
                </Label>
-               <Label layoutX="322.0" layoutY="13.0" text="50%">
+               <Label styleClass="textBlue"  layoutX="322.0" layoutY="13.0" text="50%">
                   <font>
                      <Font size="18.0" />
                   </font>
                </Label>
               </children>
           </Pane>
-          <Pane prefHeight="53.0" prefWidth="394.0">
+          <Pane styleClass="paneNutrition" prefHeight="53.0" prefWidth="394.0">
               <children>
-                  <Label layoutX="22.0" layoutY="9.0" text="Fat (0g)">
+                  <Label styleClass="textBlue"   layoutX="22.0" layoutY="9.0" text="Fat (0g)">
                       <font>
                           <Font size="24.0" />
                       </font>
                   </Label>
-               <Label layoutX="261.0" layoutY="13.0" text="0%">
+               <Label styleClass="textBlue"  layoutX="261.0" layoutY="13.0" text="0%">
                   <font>
                      <Font size="18.0" />
                   </font>
                </Label>
-               <Label layoutX="324.0" layoutY="14.0" text="30%">
+               <Label styleClass="textBlue"  layoutX="324.0" layoutY="14.0" text="30%">
                   <font>
                      <Font size="18.0" />
                   </font>
                </Label>
               </children>
           </Pane>
-          <Pane prefHeight="53.0" prefWidth="394.0">
+          <Pane styleClass="paneNutrition" prefHeight="53.0" prefWidth="394.0">
               <children>
-                  <Label layoutX="22.0" layoutY="9.0" text="Protein (0g)">
+                  <Label styleClass="textBlue"  layoutX="22.0" layoutY="9.0" text="Protein (0g)">
                       <font>
                           <Font size="24.0" />
                       </font>
                   </Label>
-               <Label layoutX="262.0" layoutY="13.0" text="0%">
+               <Label styleClass="textBlue"  layoutX="262.0" layoutY="13.0" text="0%">
                   <font>
                      <Font size="18.0" />
                   </font>
                </Label>
-               <Label layoutX="322.0" layoutY="13.0" text="20%">
+               <Label styleClass="textBlue"  layoutX="322.0" layoutY="13.0" text="20%">
                   <font>
                      <Font size="18.0" />
                   </font>
@@ -106,12 +106,12 @@
           </Pane>
       </children>
    </VBox>
-   <Label layoutX="334.0" layoutY="407.0" text="Goal">
+   <Label styleClass="textBlue"  layoutX="334.0" layoutY="407.0" text="Goal">
       <font>
          <Font size="18.0" />
       </font>
    </Label>
-   <Label layoutX="261.0" layoutY="407.0" text="Total">
+   <Label styleClass="textBlue"  layoutX="261.0" layoutY="407.0" text="Total">
       <font>
          <Font size="18.0" />
       </font>

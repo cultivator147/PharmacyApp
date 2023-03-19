@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Reminder">
+<AnchorPane stylesheets="/css/login.css" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Reminder">
     <children>
         <Pane prefHeight="109.0" prefWidth="400.0" styleClass="background">
             <children>
@@ -17,25 +17,25 @@
                         <Image url="@../source/back.png" />
                     </image>
                 </ImageView>
-                <Label layoutX="138.0" layoutY="28.0" prefHeight="35.0" prefWidth="164.0" text="Other Service">
+                <Label styleClass="headerText" layoutX="138.0" layoutY="28.0" prefHeight="35.0" prefWidth="164.0" text="Other Services">
                     <font>
                         <Font size="24.0" />
                     </font>
                 </Label>
-                <Label layoutX="166.0" layoutY="63.0" prefHeight="35.0" prefWidth="96.0" text="Reminder">
+                <Label style="-fx-text-fill: white" layoutX="166.0" layoutY="63.0" prefHeight="35.0" prefWidth="96.0" text="Reminder">
                     <font>
                         <Font size="18.0" />
                     </font>
                 </Label>
             </children></Pane>
-        <Button layoutX="86.0" layoutY="145.0" prefHeight="35.0" prefWidth="250.0" text="Track food reminder" />
-      <Button layoutX="86.0" layoutY="203.0" prefHeight="35.0" prefWidth="250.0" text="Water Reminder" />
-      <Button layoutX="86.0" layoutY="263.0" prefHeight="35.0" prefWidth="250.0" text="Workout Reminder" />
-      <Button layoutX="86.0" layoutY="317.0" prefHeight="35.0" prefWidth="250.0" text="Walk Reminder" />
-      <Button layoutX="86.0" layoutY="375.0" prefHeight="35.0" prefWidth="250.0" text="Weight Reminder" />
-      <Button layoutX="86.0" layoutY="435.0" prefHeight="35.0" prefWidth="250.0" text="Health Log Reminder" />
-      <Button layoutX="86.0" layoutY="490.0" prefHeight="35.0" prefWidth="250.0" text="Hand wash Reminder" />
-      <Button layoutX="86.0" layoutY="542.0" prefHeight="35.0" prefWidth="250.0" text="Medicine Reminder" />
+        <Button  styleClass="btnBlue" layoutX="86.0" layoutY="145.0" prefHeight="35.0" prefWidth="250.0" text="Track food reminder" />
+      <Button  styleClass="btnBlue" layoutX="86.0" layoutY="203.0" prefHeight="35.0" prefWidth="250.0" text="Water Reminder" />
+      <Button  styleClass="btnBlue" layoutX="86.0" layoutY="263.0" prefHeight="35.0" prefWidth="250.0" text="Workout Reminder" />
+      <Button  styleClass="btnBlue" layoutX="86.0" layoutY="317.0" prefHeight="35.0" prefWidth="250.0" text="Walk Reminder" />
+      <Button   styleClass="btnBlue" layoutX="86.0" layoutY="375.0" prefHeight="35.0" prefWidth="250.0" text="Weight Reminder" />
+      <Button   styleClass="btnBlue" layoutX="86.0" layoutY="435.0" prefHeight="35.0" prefWidth="250.0" text="Health Log Reminder" />
+      <Button   styleClass="btnBlue" layoutX="86.0" layoutY="490.0" prefHeight="35.0" prefWidth="250.0" text="Hand wash Reminder" />
+      <Button   styleClass="btnBlue" layoutX="86.0" layoutY="542.0" prefHeight="35.0" prefWidth="250.0" text="Medicine Reminder" />
     </children>
 
 </AnchorPane>
